@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>  Hello World |    white.</title>
+  <title>  Hello World |    Blog</title>
   <!-- 标签页图标 -->
   
   <!-- 图标库 -->
@@ -57,7 +57,7 @@
     <div class="menu-inner">
       <div class="menu-site-name  animate__animated  animate__fadeInUp">
         <a href="/">
-          white.
+          Blog
         </a>
         
       </div>
@@ -93,7 +93,7 @@
   <div class="mobile-menu-inner">
     <div class="mobile-menu-site-name  animate__animated  animate__fadeInUp">
       <a href="/">
-        white.
+        Blog
       </a>
     </div>
     <div class="mobile-menu-group" id="mobile-close">
@@ -130,7 +130,7 @@
     <div class="post-content-inner ">
       <div class="post-intro-no-cover">
         <div class="post-title animate__animated  animate__fadeInUp">Hello World</div>
-        <div class="meta-intro animate__animated  animate__fadeInUp"><span class="intro-span">2020年7月29日 by white</span></div>
+        <div class="meta-intro animate__animated  animate__fadeInUp"><span class="intro-span">2020年7月29日 by Pull</span></div>
         
       </div>
       <div class="post-content-main animate__animated  animate__fadeInUp">
@@ -156,7 +156,32 @@
         
         <!-- 评论 -->
         
-         
+          
+            <section id="comments" class="comments" style="margin-top: 150px;">
+              <style>
+                .comments{background:#fff}
+                @media screen and (max-width:900px){.comments{margin:auto;padding:10px;background:#fff}}
+              </style>
+              <div id="vcomment" class="comment"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    var notify = 'true' == true ? true : false;
+    var verify = 'true' == true ? true : false;
+    new Valine({
+        av: AV,
+        el: '#vcomment',
+        notify: notify,
+        app_id: "SExW7eNsoW67FdM9jbMCp5c7-gzGzoHsz",
+        app_key: "f8vC6gEwknvolG4ITiPhEm6r",
+        placeholder: "留下你来过的痕迹~",
+        avatar:"robohash",
+    });
+</script>
+
+          </section>
+        
         
       </div>
    </div>
